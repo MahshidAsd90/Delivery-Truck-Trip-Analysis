@@ -38,9 +38,11 @@ Evaluated delay trends based on vehicle types.
 
 1. Checking Total Deliveries & Delays
 
+```sql
 SELECT COUNT(*) AS total_deliveries,
        (SELECT COUNT(delay) FROM delivery_truck_trip WHERE delay = 'R') AS total_delays
 FROM delivery_truck_trip;
+```
 
 Insight: Understanding the percentage of delayed deliveries helps in evaluating overall logistics efficiency.
 
