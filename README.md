@@ -8,31 +8,31 @@ Efficient logistics and transportation management play a crucial role in supply 
 
 1. Data Preparation & Cleaning
 
-Renamed the dataset table from delivery truck trip data(clean) to delivery_truck_trip for consistency.
+- Renamed the dataset table from delivery truck trip data(clean) to delivery_truck_trip for consistency.
 
-Adjusted data types to ensure accuracy in distance and time calculations.
+- Adjusted data types to ensure accuracy in distance and time calculations.
 
-Extracted sample records to validate data integrity.
+- Extracted sample records to validate data integrity.
 
 2. Delivery Performance Analysis
 
-Total Deliveries & Delays:
+- Total Deliveries & Delays:
 
-Calculated the total number of deliveries.
+- Calculated the total number of deliveries.
 
-Identified delayed deliveries to assess overall performance.
+- Identified delayed deliveries to assess overall performance.
 
 Top 5 Most Delayed Routes:
 
-Analyzed delivery trips to determine the most frequently delayed routes.
+- Analyzed delivery trips to determine the most frequently delayed routes.
 
-Ranked routes based on the highest number of delays.
+- Ranked routes based on the highest number of delays.
 
-Delivery Performance by Vehicle Type:
+- Delivery Performance by Vehicle Type:
 
-Categorized trips by vehicle type.
+- Categorized trips by vehicle type.
 
-Evaluated delay trends based on vehicle types.
+- Evaluated delay trends based on vehicle types.
 
 ## Key SQL Queries & Insights
 
